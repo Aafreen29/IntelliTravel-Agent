@@ -1,7 +1,7 @@
 # Smart Travel Agent
 
 ## Overview
-A sophisticated travel recommendation application built with Streamlit that leverages LLMs (Large Language Models) and the Google Maps API to create personalized travel experiences.
+A comprehensive travel recommendation application that leverages LLMs (Large Language Models) and the Google Maps API to create personalized travel experiences. Its built with Streamlit.
 
 ## 🌟 Features
 
