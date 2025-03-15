@@ -38,18 +38,19 @@ A comprehensive travel recommendation application that leverages LLMs (Large Lan
 
 ## 🧠 Technology Stack
 
-### LLM Integration
-- **LangChain Framework**
-- **ChatOpenAI**
-- **LLMChain with PromptTemplates**
-- **Natural Language Generation**
+### AI and Language Models
+- **LangChain:** Framework for developing applications powered by language models
+- **LLM:** Integration with OpenAI's GPT-3.5 Turbo model for generating intelligent travel recommendations
+- **LLMChain:** For creating structured recommendation chains with prompt templates
+- **PromptTemplates:** Custom-designed prompts for travel recommendation generation
 - **JSON Structured Output**
 
 ### APIs and Data Sources
-- **Google Maps Platform**
-  - Places API 
-  - Geocoding API
-  - Photos API
+- **Google Maps Platform**: Core location data source with multiple endpoints:
+- Places API for discovering points of interest
+- Geocoding API for converting location names to coordinates
+- Place Details API for comprehensive place information
+- Place Photos API for visual content
 
 ### Frontend and Visualization
 - **Streamlit**
@@ -59,35 +60,28 @@ A comprehensive travel recommendation application that leverages LLMs (Large Lan
 
 ### Other Technologies
 - **Python**
-- **Environment Variable Management**
-- **Dynamic UI Components**
-- **Session State Management**
+- **dotenv - Environment Variable Management**
+- **JSON**
 
 ## 🚀 How It Works
 
-1. **Intelligent Category Mapping**
-2. **Enhanced Place Search**
-   - Place types specific to each category
-   - Travel style preferences
-   - Keyword expansion for comprehensive results
-   - Price level filtering based on travel style
-   - Rating and popularity-based sorting
-
-3. **LLM Enhancement Pipeline**
-   - Processes raw place data into a structured format
-   - Sends simplified place information to the LLM
-   - Generates personalized descriptions and highlights
-   - Integrates enhanced content back with original place data
-   - Provides fallback description generation if LLM processing fails
-
-4. **User Interface Flow**
-   - Location input and preference selection in sidebar
-   - Category navigation through icon buttons
-   - Tabbed interface for switching between list and map views
-   - Card-based presentation of recommendations
-   - Interactive map with detailed markers
+1. **User Input:** Users enter their destination, travel dates, and preferences.
+2. **Geocoding:** The application converts the location name to coordinates.
+3. **LLM call:** Places data is processed through LangChain and the LLM Model (GPT-3.5 Turbo).
+4. **Intelligent Filtering:** Results are filtered based on travel style and other preferences.
+5. **Visualization:** Recommendations are displayed in an intuitive card layout and interactive map.
 
 ## 🛠️ Setup and Installation
 
-1. Clone this repository
-2. Install the required packages:
+1. **Clone this repository**
+git clone https://github.com/yourusername/smart-travel-agent.git
+cd smart-travel-agent
+
+2. **Install the required packages:**
+   
+3. **Provide API Keys**
+OPENAI_API_KEY=your_openai_api_key
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+
+4. **Run the Streamlit application:**
+   streamlit run app.py
