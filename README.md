@@ -43,7 +43,6 @@ A comprehensive travel recommendation application that leverages LLMs (Large Lan
 - **LLM:** Integration with OpenAI's GPT-3.5 Turbo model for generating intelligent travel recommendations
 - **LLMChain:** For creating structured recommendation chains with prompt templates
 - **PromptTemplates:** Custom-designed prompts for travel recommendation generation
-- **JSON Structured Output**
 
 ### APIs and Data Sources
 - **Google Maps Platform**: Core location data source with multiple endpoints:
