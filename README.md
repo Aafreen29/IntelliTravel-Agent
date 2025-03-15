@@ -73,14 +73,14 @@ A comprehensive travel recommendation application that leverages LLMs (Large Lan
 
 ## 🛠️ Setup and Installation
 
-1. **Clone this repository**
-git clone https://github.com/yourusername/smart-travel-agent.git
+1. **Clone this repository**: <br>
+git clone https://github.com/yourusername/smart-travel-agent.git <br>
 cd smart-travel-agent
 
 2. **Install the required packages:**
    
-3. **Provide API Keys**
-OPENAI_API_KEY=your_openai_api_key
+3. **Provide API Keys** : <br>
+OPENAI_API_KEY=your_openai_api_key <br>
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
 4. **Run the Streamlit application:**
