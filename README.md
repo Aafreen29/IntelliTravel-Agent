@@ -1,7 +1,7 @@
 # IntelliTravel Agent
 
 ## Overview
-A comprehensive and intelligent travel recommendation application that leverages LLMs (Large Language Models) and the Google Maps API to create personalized travel experiences. Built using Streamlit.
+A comprehensive and intelligent travel recommendation application that leverages LLM (Large Language Model) and the Google Maps API to create personalized travel experiences. Built using Streamlit.
 
 ## Technology Stack
 
