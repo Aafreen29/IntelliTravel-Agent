@@ -1,5 +1,7 @@
 # IntelliTravel Agent
 
+#### Web app URL - https://intellitravel-agent.streamlit.app/
+
 ## Overview
 A comprehensive and intelligent travel recommendation application that leverages LLM (Large Language Model) and the Google Maps API to create personalized travel experiences. Built using Streamlit.
 
