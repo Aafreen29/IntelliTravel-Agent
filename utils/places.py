@@ -1,7 +1,7 @@
 import streamlit as st
 import json
-from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
+from langchain.schema.runnable import RunnableSequence
 
 # Create category mapping for proper search types
 CATEGORY_MAPPING = {
@@ -216,13 +216,13 @@ def get_recommendations(category, location_name, location_coords, gmaps, llm, tr
             Limit to 2-3 highlights per place. Be very concise.
             """
         
-        recommendation_chain = LLMChain(
-            llm=llm,
-            prompt=PromptTemplate(
-                input_variables=["category", "location_name", "travel_style", "places_data"],
-                template=recommendation_template
-            )
+        prompt = PromptTemplate(
+            input_variables=["category", "location_name", "travel_style", "places_data"],
+            template=recommendation_template
         )
+        
+        # Create a runnable sequence instead of an LLMChain
+        recommendation_chain = prompt | llm
         
         # Get enhanced recommendations
         try:
@@ -239,12 +239,13 @@ def get_recommendations(category, location_name, location_coords, gmaps, llm, tr
                 }
                 simplified_places.append(simplified_place)
             
-            enhanced_results = recommendation_chain.run({
+            # Use invoke instead of run
+            enhanced_results = recommendation_chain.invoke({
                 "category": category,
                 "location_name": location_name,
                 "travel_style": travel_style,
                 "places_data": json.dumps(simplified_places)
-            })
+            }).content
             
             # Process the LLM response
             try:
