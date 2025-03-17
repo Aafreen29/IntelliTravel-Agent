@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-openai
+openai
+googlemaps
+python-dotenv
+folium
+streamlit-folium
+pandas
