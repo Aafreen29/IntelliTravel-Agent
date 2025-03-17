@@ -72,6 +72,24 @@ A comprehensive and intelligent travel recommendation application that leverages
 4. **Intelligent Filtering:** Results are filtered based on travel style and other preferences.
 5. **Visualization:** Recommendations are displayed in an intuitive card layout and interactive map.
 
+
+## Project Structure
+```bash
+travel_app/
+│ 
+├── .env                 # Environment variables file
+├── requirements.txt     # Dependencies with version
+├── README.md            
+│ 
+├── app.py               # Main Streamlit application
+│ 
+└── utils/
+    ├── geocoding.py     # Location geocoding functions
+    ├── places.py        # Place search and recommendation functions
+    ├── mapping.py       # Google Maps display functions
+    └── display.py       # UI functions
+```
+
 ## Setup and Installation
 
 1. **Clone this repository**: <br>
