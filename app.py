@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.agents import AgentType, Tool, initialize_agent
 import googlemaps
 import json
