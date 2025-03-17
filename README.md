@@ -76,8 +76,8 @@ A comprehensive and intelligent travel recommendation application that leverages
 
 1. **Clone this repository**: <br>
 ```bash
-git clone https://github.com/yourusername/smart-travel-agent.git
-cd smart-travel-agent
+git clone https://github.com/yourusername/IntelliTravel-Agent.git
+cd IntelliTravel-Agent
 ```
 
 3. **Install the required packages:**
