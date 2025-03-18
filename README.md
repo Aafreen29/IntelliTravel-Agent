@@ -121,3 +121,21 @@ GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 ```bash
 streamlit run app.py
 ```
+## Project Status & Roadmap
+
+#### This project is currently under active development
+While the core functionality is operational, there are several exciting features I have planned for future implementation:
+
+<b> *Nearby Attractions Feature:</b>Enhancing the app to recommend places based on proximity to each other for optimized travel itineraries <br>
+<b> *Personalized Itinerary Builder:</b> Automatically create day-by-day travel plans based on user preferences <br>
+<b> *User Accounts:</b> Save favorite places and itineraries across sessions <br>
+<b> *Mobile Optimization:</b> Improving the mobile experience for travelers on the go
+
+##### Collaboration
+I'm actively seeking collaborators who are passionate about travel and technology! Whether you're interested in contributing code, design ideas, or testing features, I'd love to connect and work together to make this project even better.
+If you're interested in collaborating, feel free to:
+
+Fork the repository and submit a pull request
+Open an issue with your ideas or suggestions
+Reach out directly to discuss potential collaborations
+
