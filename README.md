@@ -131,7 +131,7 @@ While the core functionality is operational, there are several exciting features
 <b> *User Accounts:</b> Save favorite places and itineraries across sessions <br>
 <b> *Mobile Optimization:</b> Improving the mobile experience for travelers on the go
 
-##### Collaboration
+#### Collaboration
 I'm actively seeking collaborators who are passionate about travel and technology! Whether you're interested in contributing code, design ideas, or testing features, I'd love to connect and work together to make this project even better.
 If you're interested in collaborating, feel free to:
 
