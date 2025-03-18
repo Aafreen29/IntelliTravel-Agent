@@ -5,6 +5,15 @@
 ## Overview
 A comprehensive and intelligent travel recommendation application that leverages LLM (Large Language Model) and the Google Maps API to create personalized travel experiences. Built using Streamlit.
 
+#### Landing page:
+
+https://github.com/user-attachments/assets/2ee889e2-4e08-4c68-9673-387a0d0c5913
+
+##### Feature page:
+
+https://github.com/user-attachments/assets/f97755e4-1af4-46a3-8565-bdc4cbfe5c75
+
+
 ## Technology Stack
 
 ### AI and Language Models
